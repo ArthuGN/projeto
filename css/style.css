@@ -1,0 +1,109 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: Helvetica;
+}
+
+/* Cabeçalho */
+header{
+    background-color: #27ad97;
+    color: rgb(0, 0, 0);
+    padding: 15px;
+    text-align: center;
+    border-bottom: 3px solid #000000;
+}
+
+/* Grid de produtos */
+.container{
+    background-color: #eee;
+    min-height: 75vh;
+    padding: 50px;
+}
+
+.products-container{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.card{
+    width: 31%;
+    display: inline-block;
+    margin: 1% 1%;
+    padding: 15px;
+}
+
+.product-image{
+height: 300px;
+width: 100%;
+margin-bottom: 10px;
+background-position: center;
+background-size: cover;
+}
+
+#img-1{
+background-image: url(..//img/pc1.jpg);
+}
+
+
+#img-2{
+background-image: url(..//img/pc2.jpg);
+}
+
+#img-3{
+background-image: url(..//img/pc3.jpg);
+}
+
+#img-4{
+background-image: url(..//img/pc4.jpg);
+}
+
+#img-5{
+background-image: url(..//img/pc5.jpeg);
+}
+
+#img-6{
+background-image: url(..//img/pc6.jpg);
+}
+
+h3{
+    margin-bottom: 10px;
+    color:   #27ad97;
+    border-left: 5px solid #000000;
+    padding-left: 7px;
+    font-size: 24px;
+}
+
+.card p{
+    margin-bottom: 10px;
+}
+
+.bold{
+    font-weight: bold;
+}
+
+.bnt{
+    display: block;
+    width: 100%;
+    text-align: center;
+    text-transform: uppercase;
+    text-decoration: none;
+    background-color:   #27ad97;
+    color: rgb(0, 0, 0);
+    padding: 15px;
+    border-radius: 5px;
+    margin: 10px;
+    transition: .5s;
+}
+
+.bnt:hover{
+    background-color: #175fb1;
+}
+/* Footer */
+footer{
+background-color:   #27ad97;
+color: fff;
+border-top: 3px solid #000000;
+text-align: center;
+padding: 80px;
+}
